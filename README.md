@@ -50,7 +50,9 @@ sudo systemctl start devopsfetch
 
 Run the script with different options to retrieve specific system information.
 
-`devopsfetch.sh [OPTIONS]`
+```
+devopsfetch.sh [OPTIONS]
+```
 
 **Options**
 
