@@ -7,7 +7,7 @@ DevOpsFetch is a script designed to retrieve and log various system information 
 
 *Step 1: Fork or clone this repo*
 
-Save the `devopsfetch.sh` script to your desired location, such as `/home/hayzedak/HNG5/devopsfetch.sh` and cd into the directory that contains the script.
+You can choose to put the script in the root directory `/usr/local/bin/devopsfetch.sh` and ExecStart path to be `/etc/systemd/system/devopsfetch.service` or save the script to your desired location, such as `/home/hayzedak/HNG5/devopsfetch.sh`, thereby making similar changes to the ExecStart path.
 
 *Step 2: Make the Script Executable*
 
