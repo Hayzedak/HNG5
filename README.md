@@ -1,9 +1,9 @@
-### DevOpsFetch Documentation
+# DevOpsFetch Documentation
 
-# Introduction
+### Introduction
 DevOpsFetch is a script designed to retrieve and log various system information including active ports, Docker images and containers, Nginx domains, user logins, and system activities within a specified time range. This guide covers the installation, configuration, usage, and logging mechanism of the script.
 
-# Installation and Configuration
+### Installation and Configuration
 
 *Step 1: Fork or clone this repo*
 
@@ -42,7 +42,7 @@ sudo systemctl enable devopsfetch
 sudo systemctl start devopsfetch
 ```
 
-# Usage
+### Usage
 
 Run the script with different options to retrieve specific system information.
 
@@ -73,20 +73,20 @@ Run the script with different options to retrieve specific system information.
 -h, --help: Show the help message.
 
 
-# Logging Mechanism
+### Logging Mechanism
 
 Log File:
 
 All logged information is stored in `/var/log/devopsfetch.log`.
 
-# Viewing Logs
+### Viewing Logs
 
 To view the log file, use:
 
 `sudo cat /var/log/devopsfetch.log`
 
 
-# To continuously monitor the log file, use:
+### To continuously monitor the log file, use:
 
 `sudo tail -f /var/log/devopsfetch.log`
 
