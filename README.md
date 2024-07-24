@@ -11,13 +11,17 @@ Save the `devopsfetch.sh` script to your desired location, such as `/home/hayzed
 
 *Step 2: Make the Script Executable*
 
-`sudo chmod +x devopsfetch.sh`
+```
+sudo chmod +x devopsfetch.sh
+```
 
 *Step 3: Install Dependencies and Set Up the Service*
 
 Run the script with the --install option to install necessary dependencies and set up the systemd service:
 
-`devopsfetch.sh --install`
+```
+devopsfetch.sh --install
+```
 
 
 This command will:
@@ -34,7 +38,7 @@ This command will:
 
 *Step 4: Enable and Start the Service*
 
-If you need to manually enable and start the service:
+If you need to enable and start the service manually:
 
 ```
 sudo systemctl daemon-reload
@@ -83,12 +87,16 @@ All logged information is stored in `/var/log/devopsfetch.log`.
 
 To view the log file, use:
 
-`sudo cat /var/log/devopsfetch.log`
+```
+sudo cat /var/log/devopsfetch.log
+```
 
 
 ### To continuously monitor the log file, use:
 
-`sudo tail -f /var/log/devopsfetch.log`
+```
+sudo tail -f /var/log/devopsfetch.log
+```
 
 
 
